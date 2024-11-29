@@ -1,0 +1,67 @@
+[{
+    "qid": "Q7256278",
+    "label": "psychic reading",
+    "desc": "attempt to discern information through the use of heightened perceptive abilities",
+    "part": [
+        {
+            "pid": "Q126645",
+            "plabel": "tarot card reading"
+        },
+        {
+            "pid": "Q140732",
+            "plabel": "numerology"
+        },
+        {
+            "pid": "Q1546695",
+            "plabel": "cartomancy"
+        },
+        {
+            "pid": "Q182687",
+            "plabel": "palmistry"
+        },
+        {
+            "pid": "Q2271815",
+            "plabel": "Runic magic"
+        },
+        {
+            "pid": "Q2275288",
+            "plabel": "psychometry"
+        },
+        {
+            "pid": "Q2284411",
+            "plabel": "crystal gazing"
+        },
+        {
+            "pid": "Q2604705",
+            "plabel": "cleromancy"
+        },
+        {
+            "pid": "Q34362",
+            "plabel": "astrology"
+        },
+        {
+            "pid": "Q6648037",
+            "plabel": "Lithomancy"
+        }
+    ]
+},
+{
+    "qid": "Q113127945",
+    "label": "graphics, augmented reality and games",
+    "desc": "field of research",
+    "part": [
+        {
+            "pid": "Q150971",
+            "plabel": "computer graphics"
+        },
+        {
+            "pid": "Q254183",
+            "plabel": "augmented reality"
+        },
+        {
+            "pid": "Q675281",
+            "plabel": "game studies"
+        }
+    ]
+}
+]

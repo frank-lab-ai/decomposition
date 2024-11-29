@@ -1,0 +1,9 @@
+Given the context of an item, formatted as: "[item] is the [context]", list all possible parts of each item in a new line and in this format: "[item]: [part], [part], ...". Do not describe the parts and do not number the parts.
+We have completed the first few items for you. Please complete the rest of the items only in the format given.
+
+aquarium is the transparent tank of water for fish and water-dwelling species.
+boat noodles is the Thai noodle dish.
+server is the computer program or device that provides access to a central resource or other functionality for clients
+kidney development is the process whose specific outcome is the progression of the kidney over time, from its formation to the mature structure.
+
+aquarium: aquatic animal, water, aquarium plant, aquarium substrate
