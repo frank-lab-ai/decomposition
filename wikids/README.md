@@ -1,8 +1,15 @@
 # WikiDS
 
-Download the WikiDS dataset from [here](https://storage.googleapis.com/wikids/json/valid_with_desc.json). For the full dataset without filtering items for their quality, access [here](https://storage.googleapis.com/wikids/json/p361%2Bp527.json).
+Download the WikiDS dataset from [here](https://storage.googleapis.com/wikids/compressed/WikiDS.zip). 
 
+The zipped file contains 4 files:
+- `WikiDS.json`: The full dataset that has been filtered items for  quality items and their partition.
 
+- `WikiDS_unfiltered.json`:  The full dataset without filtering items for their quality.
+
+- `items`: Contains the items that occurred with a property, in form of their QID.  
+
+- `items_label`: contains the corresponding label for QID. 
 
 ## Statistics
 
@@ -17,9 +24,9 @@ Download the WikiDS dataset from [here](https://storage.googleapis.com/wikids/js
 
 ## Format and Example
 
-The full dataset is in `data`. 
+Extract WikiDS dataset files into the `data/json` folder of the code reposository.
 
-- `data/json` is the format we used in the paper and for the experiments. Here is an example:
+-  An example of an item decomposition in JSON format is as follows:
 
   ```
   [
@@ -46,10 +53,7 @@ The full dataset is in `data`.
   ]
   ```
 
-  It stores the concept we would like to decompose and its parts.
-  
-- [`item`](https://storage.googleapis.com/wikids/json/items) stores the items occurred with a property, in form of their QID.  The corresponding label for QID is in [`item_label`](https://storage.googleapis.com/wikids/json/items_label).  
-
+  It stores the concept we would like to decompose and its parts. 
 
 
 ## Methodology
