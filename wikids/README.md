@@ -1,6 +1,7 @@
 # WikiDS
 
-Download the WikiDS dataset from here:
+Download the WikiDS dataset from [here](https://storage.googleapis.com/wikids/json/valid_with_desc.json). For the full dataset without filtering items for their quality, access [here](https://storage.googleapis.com/wikids/json/p361%2Bp527.json).
+
 
 
 ## Statistics
@@ -46,12 +47,9 @@ The full dataset is in `data`.
   ```
 
   It stores the concept we would like to decompose and its parts.
+  
+- [`item`](https://storage.googleapis.com/wikids/json/items) stores the items occurred with a property, in form of their QID.  The corresponding label for QID is in [`item_label`](https://storage.googleapis.com/wikids/json/items_label).  
 
-- `dict` stores a dictionary each line. The first QID is the key and the remaining ones make up the value. For example `Q425243 Q629 Q895` means that there is a relation `Q425243 -> Q629` and `Q425243 -> Q895`.
-
-- `item` stores the items occurred with a property, in form of their QID.  The corresponding label for QID is in `labels.pkl`. Files that have `valid_item` in their names removed items that are outdated. 
-
-- `triplet` stores the edges in the form of `QID1 PID QID2` which means there is a property with `PID` from an item `QID1` to the other item `QID2`
 
 
 ## Methodology
